@@ -564,7 +564,7 @@ section#about {
     color: #a8e4a0;
 }
 h4.heading.main-font {
-    color: #0c340c;
+    color: #fdfe03;
 }
 span.nmbrlist {
     padding: 5px;
@@ -703,7 +703,7 @@ li.perux::before {
     font-weight: 600;
 }
 #partner h4.heading.main-font {
-    color: #000;
+    color: #fdfe03;
 }
 #komunitas .col-12.col-md-2 {
     text-align: center;
