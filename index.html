@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="id-ID">
+<head>
+    <!-- Meta Tags -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <!-- Author -->
+    <meta name="author" content="AliRi Project Development">
+    <!-- description -->
+    <meta name="description" content="ALIRI">
+    <!-- keywords -->
+    <meta name="keywords" content="Aliri Token, Cryptocurrency, Blockchain, Polygon, Token, Coin">
+    <!-- Page Title -->
+    <title>ALIRI TOKEN</title>
+    <!-- Favicon -->
+    <link href="vendor/img/XXX.ico" rel="icon">
+    <!-- Bundle -->
+    <link href="vendor/css/bundle.min.css" rel="stylesheet">
+    <!-- Plugin Css -->
+    <link href="vendor/css/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/css/LineIcons.min.css">
+    <link rel="stylesheet" href="vendor/css/jquery.fancybox.min.css">
+    <!-- Style Sheet -->
+    <link href="creative-designer/css/line-awesome.min.css" rel="stylesheet">
+    <link href="creative-designer/css/style.css" rel="stylesheet">
+    <link href="creative-designer/css/custom.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a029ca942a.js" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+  google.charts.load("current", {packages:["corechart"]});
+  google.charts.setOnLoadCallback(drawChart);
+  function drawChart() {
+    var data = google.visualization.arrayToDataTable([
+      ['Task', 'Hours per Day'],
+      ['Lock',     40],
+      ['Community Developer',      15],
+      ['Liquidty Pool',      15],
+      ['Presale',      20],
+      ['Burning Plan',    0],
+      ['Marketing', 6],
+      ['Team Developer', 4]
+    ]);
+
+    var options = {
+backgroundColor: { fill:'transparent' },
+legend: {position: 'none'},
+
+      is3D: true,
+ // pieSliceText: 'label',
+  chartArea:{left:70,top:20,width:"100%",height:"100%",pieSliceBorderColor: '#fff'},
+  // pieStartAngle: 90,
+  slices: {
+              0: { color: 'black' },
+              1: { color: '#fea800' },
+              2: { color: '#a761c8' },
+              3: { color: '#60d837' },
+              4: { color: '#ed210d' },
+              5: { color: '#00a1ff' },
+              6: { color: '#00ffff' },
+              7: { color: '#cd853f' }
+            }
+    };
+
+    var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+    chart.draw(data, options);
+  }
+
+  $(window).on("throttledresize", function (event) {
+    var options = {
+        width: '100%',
+        height: '100%'
+    };
+
+    var data = google.visualization.arrayToDataTable([]);
+    drawChart(data, options);
+});
+</script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<style media="screen">
+.owl-dots {
+    margin-bottom: 60px;
+}
+</style>
+<link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VX600Q81VK"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-VX600Q81VK');
+</script>
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="90">
+
+<header>
+    <!--Navigation-->
+    <nav class="navbar navbar-top-default navbar-expand-lg navbar-simple nav-line">
+        <div class="container-fluid navbar-left">
+            <a href="#home" title="Logo" class="logo scroll">
+                <!--Logo Default-->
+                <span><img src="creative-designer/images/advance-01.png" alt="Logo DOA"></span>
+            </a>
+        </div>
+
+        <!--Side Menu Button-->
+        <a href="javascript:void(0)" class="sidemenu_btn" id="sidemenu_toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <div class="topnav">
+          <a href="#home">Beranda</a>
+          <a href="#about">Tentang Kami</a>
+          <a href="#program">Program</a>
+          <a href="#tokenomics">Tokenomics</a>
+          <a href="#roadmap">Roadmap</a>
+          <a href="#home"> <div class="flaglang"> <img src="images/indonesia.png" alt=""> </div></a>
+          
+        </div>
+    </nav>
+
+    <!--Side Nav-->
+    <div class="side-menu hidden">
+        <div class="inner-wrapper">
+            <span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
+            <a href="#home" title="Logo" class="scroll">
+                <!--Logo Default-->
+                <img src="creative-designer/images/advance-01.png" alt="logo">
+            </a>
+            <nav class="side-nav w-100">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#home">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#about">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#program">Program</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#tokenomics">Tokonomics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#roadmap">Roadmap</a>
+                    </li>
+                    <li class="nav-item">
+                      <div class="headflg">
+                        <a href="#home"> <div class="flaglang"> <img src="images/indonesia.png" alt=""> </div></a>
+                        
+                      </div>
+
+                    </li>
+                </ul>
+            </nav>
+            <div class="side-footer w-100">
+              <!-- <ul class="social-icons-simple">
+                 <li><a class="telegram_bg_hvr2" href=""><i class="fa fa-telegram"></i> </a> </li>
+                 <li><a class="twitter_bg_hvr2" href=""><i class="fab fa-twitter"></i> </a> </li>
+              </ul> -->
+                <ul class="social-icons-simple">
+                   <li><a class="telegram_bg_hvr2" href=""><i class="fa fa-telegram"></i> </a> </li>
+                   <li><a class="twitter_bg_hvr2" href=""><i class="fab fa-twitter"></i> </a> </li>
+                   <li><a class="tiktok_bg_hvr2" href=""><i class="fab fa-tiktok"></i> </a> </li>
+                   <li><a class="instagram_bg_hvr2" href=""><i class="fab fa-instagram"></i> </a> </li>
+                   <li><a class="facebook_bg_hvr2" href=""><i class="fab fa-facebook-f"></i> </a> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <a id="close_side_menu" href="javascript:void(0);"></a>
+    <!-- End side menu -->
+<style media="screen">
+</style>
+</header>
+
+<div class="loader-bg">
+    <div class="svg-loader">
+        <img src="images/matic.gif" alt="">
+    </div>
+</div>
+
+<section class="section slide1 p-0" id="home">
+    <div class="slider-area" id="slider-area">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6 col-lg-6 text-md-center text-lg-left wow fadeInLeft content-margin mainheaad" data-wow-duration="1.5s" data-wow-delay="1.2s">
+                    <div class="area-heading text-center text-lg-left">
+                        <h1 class="main-font text-white font-weight-bold mb-4 tithead"><span class="d-block text-red">ALIRI TOKEN</span></h1>
+                        
+                        <p class="text-white alt-font mb-5">ALIRI adalah Gagasan Inovasi untuk membangun solusi pemberdayaan masyarakat dalam hal pengembangan ekonomi kreatif berbasis digital dengan menghadirkan teknologi Blockchain untuk mendukung semua aktifitas dalam rangka membangun ekosistem yang kuat dan mampu merambah semua model ekosistem yang ada.
+                          </p>
+                        <a href="#about"  class="btn btn-medium btn-rounded btn-trans-white mb-5 brnbeli" target="_blank">ABOUT</a>
+                        <a href="#tokenomics" class="btn btn-medium btn-rounded btn-trans-white mb-5" target="_blank">SPESIFICATION</a>
+                        <a href=""  class="btn btn-medium btn-rounded btn-trans-white mb-5" target="_blank">$DOA PRESALE</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 image-order wow fadeInRight mainheaad" data-wow-duration="1.5s" data-wow-delay="1.2s">
+                    <div class="slider-image">
+                        <img src="images/image1.png" alt="Slider-Image" width="50%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class=" col-sm-12 col-md-6 img-sec mt-5 mt-md-0 wow fadeIn order-2 order-md-1" data-wow-duration="1.5s" data-wow-delay=".5s">
+                <div class="red_rectangle"></div>
+                <div class="about_img position-relative">
+                    <img class="imgcoin" src="images/image12.png" alt="About Image"style="position: relative; top: 20px; left: 25px;">>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 pl-md-5 wow fadeInRight order-1 order-md-1" data-wow-duration="1.5s" data-wow-delay=".5s">
+                <div class="about-heading">
+                    <h1 class="heading margin_heading main-font">ABOUT ALIRI</h1>
+                    <p class="info">ALIRI merupakan sebuah gagasan inovatif untuk membangun ekosistem Digital berbasis  Teknologi Blockchain yang dikembangkan untuk memfasilitasi ide-ide kreatif yang bisa diexplorasi dengan berbagai model dalam rangka meningkatkan kesejeahteraan ekonomi masyarakat.                    </p>
+                    <p class="info my-4">Melalui pengembangan ekosistem Digital ini, ALIRA hadir untuk menjembatani komunitas yang memiliki ide-ide kreatif untuk bisa bekerjasama dan saling bersinergi dengan entitas Pengembang  ekosistem Teknologi Blockchain untuk bisa membangun sebuah terobosan yang lebih besar dan lebih luas untuk menciptakan kesejateraan Ekonomi secara bersama.</p>
+                    <p class="info my-4">ALIRI token yang selanjutnya disebut DOA selanjutnya akan dimanfaatkan untuk menjadi jembatan dalam memfasilitasi berbagai kebutuhan komunitas berbasis Teknologi Blockchain agar dapat memperluas hubungan antar penggiat komunitas lintas sektoral dan menjadi solusi untuk menciptakan ekosistem ekonomi kreatif yang bisa berkontribusi terhadap kondisi sosial ekonomi masyarakat disekitarnya.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="tekno" id="teknologi">
+    <div class="container">
+        <div class="row wow fadeInUp" data-wow-duration="1.5s">
+            <div class="col-12 text-center">
+                <div class="heading-area">
+                    <h4 class="heading main-font">OUR TECHNOLOGY</h4>
+                    <p>ALIRI (DOA) menciptakan ekosistem yang dapat menghubungkan berbagai Komunitas dari berbagai Model aktifitas untuk saling mendukung dalam mengembangkan ide-ide kreatif yang bisa bersinergi dengan pengembangan Ekosistem Digital melalui interaksi terdesentralisasi dalam menyelesaikan permasalahan dunia nyata dengan menggunakan teknologi Blockchain.</p>
+                    <p>ALIRI (DOA) membangun kontrak pintar menggunakan teknologi Polygon Network (MATIC), di mana Polygon Network (MATIC) dianggap sebagai salah satu jaringan Blockchain terbaik yang lebih cerdas dan andal jika dibandingkan dengan jaringan Blockchain terdesentralisasi lainnya. Polygon Network (MATIC) dianggap sebagai salah satu jaringan Blockchain canggih dengan arsitektur yang kuat dan fitur keamanan kelas atas.</p>
+                  
+                    <div class="kntnmstr">
+                      <img class="imgkntn" src="images/polygon.png" alt=""style="position: relative; top: 20px; left: -40px;">><br>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-12 col-md-12">
+              <h2 class="heading main-font my-4" style="color: #103110" ><b>ALIRI (DOA) FEATURE :</b></h2>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="clients-area">
+                    <ul class="sctr">
+                      <li><span class="nmbrlist">1</span> Polygon Native Token</li>
+                      <li><span class="nmbrlist">2</span> Antidump</li>
+                      <li><span class="nmbrlist">3</span> Antiwhale</li>
+                      <li><span class="nmbrlist">4</span> No Tax Transaction</li>
+                      <li><span class="nmbrlist">5</span> No Hidden Fee</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="clients-area row2">
+                    <ol class="sctr" start="6">
+                      <li><span class="nmbrlist">6</span> Fixed Supply</li>
+                      <li><span class="nmbrlist">7</span> No Mint Can Only Be Burned</li>
+                      <li><span class="nmbrlist">8</span> Proof of Increases in the future</li>
+                      <li><span class="nmbrlist">9</span> Transfer Ownership</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="clients-area tecnoimg">
+                    <img src="images/xx-polygon.png" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-md-12">
+                <div class="clients-area btnact">
+                  <a href="https://polygonscan.com/token/0xb5f6ca3cdc4d42a57ef85f22ca98ad4d222d7f4e" target="_blank"><button type="button" class="btn btn-medium btn-rounded btn-trans-white mb-5 brnbeli" name="button">DOA Smart Contract</button></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="prog" id="program">
+    <div class="container">
+        <div class="row wow fadeInUp" data-wow-duration="1.5s">
+            <div class="col-12 text-center">
+                <div class="heading-area">
+                    <h4 class="heading main-font">PROGRAM COMMUNITY DEVELOPMENT</h4>
+                    <p>ALIRI (DOA) merupakan ide yang dikembangkan oleh Penggiat Ide-ode Kreatif dengan sekelompok penggiat ekosistem Blockchain dan Cryptocurrency di Komunitas Polygon untuk membangun Kolaborasi secara bersama-sama dengan memanfaatkan Teknologi Blockchain sebagai sarana eksplorasi ide dan gagasan untuk melahirkan Industri Ekonomi kreatif berbasis digitalisasi sekaligus dalam rangka peningkatan kualitas SDM dalam hal Edukasi dan implementasi nyata.</p>
+                    <p>Berkaitan dengan hal tersebut, peran komunitas yang kuat dan saling mendukung sangat penting karena merupakan pilar dan landasan utama untuk mampu mengembangkan inovasi-inovasi baru dalam menciptakan perluasan fungsi Teknologi Blockchain di sektor yang lebih luas.</p>
+                    <p>Berdasarkan kerangka analisis tersebut, ALIRI (DOA) hadir untuk menginisiasi para penggiat ide ekonomi Kreatif untuk memanfaatkan teknologi Blockhain sebagai fasilitas penunjang dalam mengembangkan infrastruktur dan fundamental yang mampu menjangkau seluruh lapisan masyarakat.</p>
+                    <p>ALIRI (DOA) kemudian menyusun garis besar Perencanaan Program yang menjadi Master Plan pengembangan Ekosistem ALIRI, antara lain sebagai berikut :</p>
+                </div>
+            </div>
+            <div class="col-6">
+              <div class="clients-area">
+                <ol  class="sctr lstx">
+                  <li>Melalui Pengembangan Program Edukasi di ALIRI, maka pemanfaatan Teknologi Blockchain akan membantu pengembangan ide-ide ekonomi kreatif.</li>
+                  <li>Mendorong para Penggiat ekonomi kreatif khususnya yang berbasis komunitas dari berbagai model  komunitas agar dapat menggunakan infrastruktur Teknologi Blockchain sebagai sarana pendukung untuk membangun kolaborasi dengan berbagai pihak dalam mengembangkan perluasan sektoral yang lebih kuat melalui kehadiran ALIRI (DOA).</li>
+                  <li>Membentuk sumber daya manusia yang kompeten, kreatif dan inovatif berupa pendidikan dan pelatihan melalui Program ALIRI Community Education.</li>
+                  <li>Membantu Para penggiat atau pelaku usaha dari berbagai sektor agar mampu beradaptasi dengan perkembangan zaman saat ini sehingga mampu bertahan dan mempunyai daya saing yang tinggi.</li>
+                  <li>Membuka usaha dengan koneksi luas baik secara online maupun offline melalui pemanfaatan teknologi blokchain.</li>
+                  <li>Membina ekosistem usaha untuk dapat menyesuaikan diri dengan perkembangan zaman.</li>
+                  <li>Memperluas model aktivitas para penggiat atau pelaku ekonomi kreatif untuk membangun komunitas melalui pengembangan ekosistem teknologi blockchain yang lebih kuat dan solid.</li>
+                </ol>
+              </div>
+            </div>
+            <div class="col-6 text-center">
+              <div class="clients-area"><br><br><br>
+                  <img src="images/aliri-program.png"  alt="Image" height="200%" width="280%">>
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="portfolio" id="tokenomics">
+  <div class="container">
+  <div class="row align-items-center">
+      <div class="col-12 col-md-12">
+        <h2 class="heading main-font my-4 titlesmb" style="TEXT-ALIGN: center;">TOKENOMICS</h2>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="col-12 col-md-12">
+          <h3 class="subtitlesmb">INFORMASI TOKEN</h3>
+        </div>
+        <ul class="sctrx">
+          <li>Nama: ALIRI</li>
+          <li>Simbol: DOA</li>
+          <li>Tipe: Community Utility</li>
+          <li>Blockchain: Polygon Technology</li>
+          <li>Token Standard: Matic</li>
+          <li>MInt & Burn: Burn Only</li>
+          <li>Total Max Supply: 21.000.000</li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-md-6">
+        <div class="col-12 col-md-12">
+          <h3 class="subtitlesmb">DISTRIBUSI TOKEN</h3>
+        </div>
+        <ul class="sctrx">
+          <li>Lock: 8.400.000</li>
+          <li>Community Developer : 3.150.000</li>
+          <li>Liquity Pool : 3.150.000</li>
+          <li>Presale: 4.200.000</li>
+          <li>Marketing: 1.260.000</li>
+          <li>Team Developer: 420.000</li>
+          <li> <span style="color: #ffff00" ><b>Circulation Supply = 100% </b></span</li>
+          
+         
+        </ul>
+      </div>
+    </div>
+
+    <div class="row align-items-center diagramnya">
+      <div class="col-12 col-md-6">
+        <div id="chart_wrap"><div id="piechart_3d" ></div></div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="col-12 col-md-12">
+          <h3 class="subtitlesmb">ALIRI SUPPLY CHAIN</h3>
+        </div>
+        <ul class="sctrx aloktkn">
+          <li class="itemx">Lock: 40%</li>
+          <li class="kuningx">Community Developer: 15%</li>
+          <li class="ungux">Liquidity Pool: 15%</li>
+          <li class="ijox">Presale: 20%</li>
+          <li class="birux">Marketing: 6%</li>
+          <li class="aquax">Team Developer: 4%</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="roadmap" id="roadmap">
+  <div class="container">
+  <div class="row align-items-center">
+      <div class="col-12 col-md-12">
+        <h2 class="heading main-font my-4 titlesmb" style="TEXT-ALIGN: center;">ROADMAP</h2>
+      </div>
+      <section class="ag-section">
+        <div class="ag-format-container">
+          <div class="js-timeline ag-timeline">
+            <div class="js-timeline_line ag-timeline_line">
+              <div class="js-timeline_line-progress ag-timeline_line-progress"></div>
+            </div>
+            <div class="ag-timeline_list">
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">1</div>
+                  </div>
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta"><span style="color: #e5e4e2">Riset & Pengembangan Gagasan✔️</span></div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Mengeksplorasi lebih jauh ide-ide kreatif yang bisa dikembangkan dengan menjelajahi potensi yang ada di masyarakat agar memudahkan membuat strategi dalam mengembangkan Project Utilitas ALIRI (DOA) untuk perluasan market industri Teknologi Blockchain. 
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta"><span style="color: #e5e4e2">Strategi Perumusan & Perencanaan Program ✔️</span></div>
+                  </div>
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">2</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Mengorganisir dan mengarahkan para pendukung gagasan program ini untuk mengetahui bagaiamana tahap demi tahap yang akan dilakukan dalam rangka pengembangan Komunitas ALIRI
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">3</div>
+                  </div>
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta"><span style="color: #e5e4e2">Community Organizer✔️</span></div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+Merekrut orang yang kompeten dan punya keahlian untuk ditunjuk sebagai Community Organizer agar
+bisa segera mengimplementasikan dan
+merealisasikan program-program
+ALIRI ( DOA )
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta"><span style="color: #e5e4e2">Launch Official Website✔️</span></div>
+                  </div>
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">4</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Membangun website informasi tentang ALIRI Tokens (DOA) untuk dapat memberikan informasi kepada seluruh pengguna sehingga seluruh informasi terdistribusi dengan baik.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">5</div>
+                  </div>
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta"><span style="color: #e5e4e2">Deploy Smart Contract✔️</span></div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Peluncuran kontrak pintar ALIRI Token (DOA) untuk ditawarkan kepada semua orang yang mendukung program ini.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta"><span style="color: #e5e4e2">Listing Pool Provider Partnership✔️</span></div>
+                  </div>
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">6</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Terhubung dengan Blockchain Alliance untuk implementasi Program ALIRI Finance (ALIF) & ALIRI Creative Industry (ALICIA) Pool bagi Pemegang Token ALIRI (DOA).
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">7</div>
+                  </div>
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta"><span style="color: #e5e4e2">Launch Presale & Community Development Website✔️</span></div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Membangun website Program Pengembangan Komunitas ALIRI (DOA) melalui Program Edukasi, Presale & Paket Pemilikan ALIRI (DOA) Token.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta"><span style="color: #e5e4e2">Listing Poin Community Reward Provider✔️</span></div>
+                  </div>
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">8</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Terhubung dengan Blockchain Alliance untuk implementasi Program Poin Community Reward  bagi Pemegang ALIRI (DOA).
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">9</div>
+                  </div>
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta"><span style="color: #0c340c">Launch Presale Token ALIRI (DOA) 👈</span></div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Melaksanakan penjualan token melalui Website Program ALIRI Community Education untuk Pengembangan Komunitas secara bertahap.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta">Local Community Representatif Offering</div>
+                  </div>
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">10</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Bekerjasama dengan penggiat-penggiat Komunitas untuk perluasan sebaran komunitas di berbagai wilayah dalam rangka Pengembangan Ekosistem ALIRI (DOA).
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">11</div>
+                  </div>
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta">Listing di Decentralize Exchange (DEX)</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Pendaftaran logo dan Listing Token, Pembukaan Harga Dasar Pertama di Bursa Terdesentralisasi dengan harga pembukaan USD 0.05,- dan negoisasi dengan Provider untuk menjadwalkan Deploy Stake Pool dan Farming Pool.  
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta">Listing di DEFI Lending & Borrow Platform
+                    </div>
+                  </div>
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">12</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Mendaftarkan atau Listing ALIRI ( DOA ) di Platform DEFI Lending & Borrow dengan tujuan bagaimana ALIRI (DOA) dapat digunakan sebagai Agunan Aset.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">13</div>
+                  </div>
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta">Listing di DEFI Web3 Wallet Platform</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Mendaftarkan atau Listing ALIRI ( DOA ) di Platform DEFI Web3 Wallet
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta">DAPPS for Project Utilty ALIRI (DOA)</div>
+                  </div>
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">14</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Dalam rangka menciptakan ekosistem yang lebih besar, dengan mempertimbangkan rencana pengembangan pasar yang lebih luas, maka perlu dibangun Proyek Utilitas yang dibutuhkan oleh Para Pemilik ALIRI (DOA) Token .
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+
+              <div class="js-timeline_item ag-timeline_item">
+                <div class="ag-timeline-card_box">
+                  <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                    <div class="ag-timeline-card_point">15</div>
+                  </div>
+                  <div class="ag-timeline-card_meta-box">
+                    <div class="ag-timeline-card_meta">Listed on a Centralized Exchange, Coin Market Cap & Coingecko</div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_item">
+                  <div class="ag-timeline-card_inner">
+                    <div class="ag-timeline-card_info">
+                      <div class="ag-timeline-card_desc">
+                        Untuk tujuan menciptakan ekosistem yang lebih besar lagi maka dengan mempertimbangkan rencana untuk mencapai volume likuiditas pasar yang tinggi, maka perlu terdaftar market tersentralisasi serta di Coinmarketcap (CMC) dan Coingecko (CG)
+unggul.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ag-timeline-card_arrow"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>
+
+<section class="our-clients" id="testimonials">
+    <div class="container">
+      
+        <div class="row wow fadeInUp" data-wow-duration="1.5s">
+            <div class="col-12 text-center">
+                <div class="heading-area">
+                    <h4 class="heading main-font">Ruang Lingkup Ekosistem ALIRI</h4>
+                </div>
+            </div>
+            <div class="owl-testimonial owl-carousel owl-theme">
+                <div class="item">
+                    <div class="testimonial-box">
+                        <img src="images/managemen/image2.png" width=10% alt="">
+                        <div class="text1">
+                            <p class="testimonial_name">Usaha Kecil Menengah </p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-box">
+                        <img src="images/managemen/image3.png" alt="">
+                        <div class="text1">
+                            <p class="testimonial_name">Community Organic</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-box">
+                        <img src="images/managemen/image4.png" alt="">
+                        <div class="text1">
+                            <p class="testimonial_name">Bussiness Owner</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-box">
+                        <img src="images/managemen/image5.png" alt="">
+                        <div class="text1">
+                            <p class="testimonial_name">Bussiness StartUp</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-box">
+                        <img src="images/managemen/image6.png" alt="">
+                        <div class="text1">
+                            <p class="testimonial_name">Crypto Community</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-box">
+                        <img src="images/managemen/image7.png" alt="">
+                        <div class="text1">
+                            <p class="testimonial_name">Investor</p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                  <div class="testimonial-box">
+                      <img src="images/managemen/image1.png" alt="">
+                      <div class="text1">
+                          <p class="testimonial_name">Penggagas Industry Kreatif</p>
+                          
+                      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="our-clients" id="partner">
+    <div class="container">
+        <div class="row wow fadeInUp" data-wow-duration="1.5s">
+            <div class="col-12 text-center">
+                <div class="heading-area">
+                    <h4 class="heading main-font">OUR PARTNERS</h4>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-12 col-md-3">
+                </div>
+                <div class="col-12 col-md-3">
+                  <img src="images/plaxswap.png" alt="">
+                </div>
+                <div class="col-12 col-md-3">
+                  <img src="images/ccf-dex-logo.png" width="1280" height="430"alt="">
+                </div>
+                <div class="col-12 col-md-4"><br><br>
+                </div>
+              </div>
+              <div class="row align-items-center">
+                  <div class="col-12 col-md-3">
+                  </div>
+                  <div class="col-12 col-md-3">
+                    <img src="images/create-logo.png" alt="">
+                  </div>
+                  <div class="col-12 col-md-3">
+                    <img src="images/clabs100.png" width="1280" height="100"alt="">
+                  </div>
+                  <div class="col-12 col-md-1">
+                  </div>
+                </div>
+        </div>
+    </div>
+</section>
+<section class="our-clients" id="komunitas">
+    <div class="container">
+        <div class="row wow fadeInUp" data-wow-duration="1.5s">
+            <div class="col-12 text-center">
+                <div class="heading-area">
+                    <h4 class="heading main-font">OUR COMMUNITY </h4>
+                </div>
+            </div>
+            <div class="mainsosmed">
+              <a href="" target="_blank"><i class="fa fa-telegram"></i></a>
+              <a href="" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="" target="_blank"><i class="fab fa-tiktok"></i></i></a>
+              <a href="" target="_blank"><i class="fa fa-instagram"></i></a>
+              <a href="" target="_blank"><i class="fa fa-facebook"></i></a>
+            </div>
+            <div class="row align-items-center">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="copyright" id="copyright">
+    <div class="container">
+        <div class="row wow fadeInUp" data-wow-duration="1.5s">
+            <div class="col-12 text-center">
+                <div class="heading-area">
+                    <p>&copy; 2024 ALIRI Blockchain Technology</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- START SCROLL TOP -->
+<div class="go-top"><i class="las la-arrow-up"></i><i class="las la-arrow-up"></i></div>
+<!-- END SCROLL TOP -->
+<script type="text/javascript">
+(function ($) {
+  $(function () {
+
+
+    $(window).on('scroll', function () {
+      fnOnScroll();
+    });
+
+    $(window).on('resize', function () {
+      fnOnResize();
+    });
+
+
+    var agTimeline = $('.js-timeline'),
+      agTimelineLine = $('.js-timeline_line'),
+      agTimelineLineProgress = $('.js-timeline_line-progress'),
+      agTimelinePoint = $('.js-timeline-card_point-box'),
+      agTimelineItem = $('.js-timeline_item'),
+      agOuterHeight = $(window).outerHeight(),
+      agHeight = $(window).height(),
+      f = -1,
+      agFlag = false;
+
+    function fnOnScroll() {
+      agPosY = $(window).scrollTop();
+
+      fnUpdateFrame();
+    }
+
+    function fnOnResize() {
+      agPosY = $(window).scrollTop();
+      agHeight = $(window).height();
+
+      fnUpdateFrame();
+    }
+
+    function fnUpdateWindow() {
+      agFlag = false;
+
+      agTimelineLine.css({
+        top: agTimelineItem.first().find(agTimelinePoint).offset().top - agTimelineItem.first().offset().top,
+        bottom: agTimeline.offset().top + agTimeline.outerHeight() - agTimelineItem.last().find(agTimelinePoint).offset().top
+      });
+
+      f !== agPosY && (f = agPosY, agHeight, fnUpdateProgress());
+    }
+
+    function fnUpdateProgress() {
+      var agTop = agTimelineItem.last().find(agTimelinePoint).offset().top;
+
+      i = agTop + agPosY - $(window).scrollTop();
+      a = agTimelineLineProgress.offset().top + agPosY - $(window).scrollTop();
+      n = agPosY - a + agOuterHeight / 2;
+      i <= agPosY + agOuterHeight / 2 && (n = i - a);
+      agTimelineLineProgress.css({height: n + "px"});
+
+      agTimelineItem.each(function () {
+        var agTop = $(this).find(agTimelinePoint).offset().top;
+
+        (agTop + agPosY - $(window).scrollTop()) < agPosY + .5 * agOuterHeight ? $(this).addClass('js-ag-active') : $(this).removeClass('js-ag-active');
+      })
+    }
+
+    function fnUpdateFrame() {
+      agFlag || requestAnimationFrame(fnUpdateWindow);
+      agFlag = true;
+    }
+ 
+
+  });
+})(jQuery);
+
+</script>
+<!-- JavaScript -->
+<script src="vendor/js/bundle.min.js"></script>
+<!-- Plugin Js -->
+<script src="vendor/js/jquery.appear.js"></script>
+<script src="vendor/js/owl.carousel.min.js"></script>
+<script src="vendor/js/wow.min.js"></script>
+<script src="vendor/js/jquery.fancybox.min.js"></script>
+
+<!-- CUSTOM JS -->
+<script src="vendor/js/contact_us.js"></script>
+<script src="creative-designer/js/circle-progress.min.js"></script>
+<script src="creative-designer/js/script.js"></script>
+
+</body>
+</html>
