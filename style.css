@@ -399,7 +399,7 @@ section#contact {
     background: #32373a;
 }
 section#partner {
-    background: transparent;
+    background: #f8f8f8;
     color:#0c340c;
 }
 .about_img {
@@ -703,7 +703,7 @@ li.perux::before {
     font-weight: 600;
 }
 #partner h4.heading.main-font {
-    color: #fdfe03;
+    color: #28102f;
 }
 #komunitas .col-12.col-md-2 {
     text-align: center;
